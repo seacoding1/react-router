@@ -33,10 +33,10 @@ const Header = () => {
                     <button onClick={goBack}>뒤로가기</button>
                 </div>
             </header>
-            <sectoin>
+            <section>
                 {/* 헤더하위의 라우터 표현 */}
                 <Outlet/>
-            </sectoin>
+            </section>
         </Fragment>
     )
 }
