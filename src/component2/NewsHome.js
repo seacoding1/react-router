@@ -5,6 +5,7 @@ import NewsCategory from "./NewsCategory";
 const NewsHome = () => {
     return (
         <Fragment>
+            <h3>뉴스홈 테스트</h3>
             <NewsCategory/>
             <NewsList/>
         </Fragment>
